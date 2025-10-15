@@ -4,7 +4,7 @@ NOTE: As of October 2025, I am no longer using or developing zsh-utils. If you
 have bug fixes or minor PRs, please feel free to submit them and I will review
 as I am able, but as I no longer use zsh-utils, support will be limited.
 
-Most of my dotfiles have been moved over to [zephyr](zephyr) which continues the
+Most of my dotfiles have been moved over to [zephyr][zephyr] which continues the
 spirit of this project but is better in almost every way. It has more complete
 defaults, more modules, more workarounds for zsh oddities, and is just better
 maintained in general. If you're looking for an alternative, I'd strongly
@@ -34,8 +34,8 @@ don't work well out of the box, and have many unmaintained modules. zsh-utils
 aims to be small, simple, and focused.
 
 - Don't reinvent the wheel. If there's an existing plugin elsewhere which works
-  well it should be preferred (such as [zsh-completions](https://github.com/zsh-users/zsh-completions)
-  and [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
+  well it should be preferred (such as [zsh-completions][zsh-completions] and
+  [zsh-syntax-highlighting][zsh-syntax-highlighting].
 - Clear is better than clever. The code should be easy to maintain for anyone
   with a decent knowledge of zsh. Comments should be included when anything needs
   explanation.
@@ -97,3 +97,5 @@ For more specific information about the plugins, check out [PLUGINS.md](./PLUGIN
 [zephyr]: https://github.com/mattmc3/zephyr
 [zgen]: https://github.com/tarjoilija/zgen
 [zplug]: https://github.com/zplug/zplug
+[zsh-completions]: https://github.com/zsh-users/zsh-completions
+[zsh-syntax-highlighting]: https://github.com/zsh-users/zsh-syntax-highlighting
